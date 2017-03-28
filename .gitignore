@@ -1,0 +1,3 @@
+.idea
+*.iml         # any file with the extension .iml
+**/.DS_Store  # any location
