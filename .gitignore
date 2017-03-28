@@ -1,3 +1,5 @@
 .idea
-*.iml         # any file with the extension .iml
-**/.DS_Store  # any location
+# any file with the extension .iml
+*.iml
+# any location
+**/.DS_Store
