@@ -35,7 +35,8 @@ Create an account
 `git init` initializes a git repository
 `git status` Outputs the current state of your repository
 `git add <file_name>` Start tracking this file with Git
-
+`git commit -m "message here"` Commit some changes
+`git remote add origin git@github.com:CodeupClassroom/pinnacles_html.git` This is how you add a remote
 
 
 VCS. Versioning Control System
@@ -46,6 +47,7 @@ VCS. Versioning Control System
 
 Github
 
+* Remote. A remote git repository
 
 
 
