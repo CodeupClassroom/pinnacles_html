@@ -15,12 +15,19 @@ Create an account at:
 
 * `markdown`, is a language similar to html, it is used to describe the structure of a document. The advantage is its syntax is shorter.
 * `prompt`, the text before the cursor on a terminal
+* `CDN`. Content Delivery Network.
+
+Cache
+
+Quirks mode
 
 ## Terminal Commands
 
 * `pwd`. Print Working Directory
 * `cd`. Change directory
 * `whoami`. Who am I? What's my user name.
+* `mv <origin> <target>` Move a directory or a file to a specific location (target)
+* `man <command>` Manual for any terminal command
 
 ## Character sets
 
@@ -77,6 +84,10 @@ They're related to the standard
 The value of some attributes is optional, for instance disabled in input.
 The quotes are also optional unless the value has a space
 
+# Servers paths
+
+The root folder of a server, usually is not the same as the root folder of the machine
+For our projects the root of the server is directory where our HTML pages are. For instance `pinnacles_html`. This folder is called the **public directory** 
 
 ## Paths
 
@@ -97,3 +108,60 @@ To install tree run:
 ```
 brew install tree
 ```
+
+
+Protocols
+
+HTTP - Hyper-Text Transfer Protocol
+
+HTTP Messages
+
+2 parts
+* Header
+* Body
+
+2 types of messages
+* Request   -> Client-side -> Browser
+* Response  -> Server-side -> Web server
+
+HTTP verbs (methods)
+
+GET   -> Read - Download
+POST  -> Write - Sending data
+
+Query string
+
+key = value -> key-value pair
+
+examples:
+attributes in html elements
+GET parameters in query strings
+
+?search_query=javascript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
