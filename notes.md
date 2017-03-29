@@ -109,6 +109,7 @@ To install tree run:
 brew install tree
 ```
 
+`tree` can be executed to colorize files and folders for easier distinction using the `tree -C` flag. For more options run `man tree`
 
 Protocols
 
