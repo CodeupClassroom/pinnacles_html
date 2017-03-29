@@ -2,10 +2,10 @@
 
 ## Tools
 
-Create an account
+Create an account at:
 
-[https://typing.io/](Typing IO)
-[https://www.shortcutfoo.com](Shortcut Foo)
+* [https://typing.io/](Typing IO)
+* [https://www.shortcutfoo.com](Shortcut Foo)
 
 ## Useful links
 
@@ -49,7 +49,51 @@ Github
 
 * Remote. A remote git repository
 
+## HTML elements
+
+Classification
+
+* Block elements -> br p, div 
+* Inline elements -> em, strong, span
+* Void elements -> br, hr
+
+* Elements can have attributes. Attributes describe properties for that element
+
+- Required
+ - img -> src
+ - meta -> charset
+- Optional -> id, class
+
+An HTML can be either
+
+They're related to syntax
+* Well-formed
+* Mal-formed
+
+They're related to the standard
+* Valid 
+* Invalid
+
+The value of some attributes is optional, for instance disabled in input.
+The quotes are also optional unless the value has a space
 
 
+## Paths
+
+* Absolute paths. It starts with a /
+* Relative paths
 
 
+# Brew and tree
+
+To install [brew](https://brew.sh/) run:
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+To install tree run:
+
+```
+brew install tree
+```
