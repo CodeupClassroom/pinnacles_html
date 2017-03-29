@@ -26,13 +26,13 @@
     <p>What's your fav. color?</p>
 
     <label for="blue">Blue</label>
-    <input id="blue" type="checkbox" name="color" value="blue">
+    <input id="blue" type="checkbox" name="color[]" value="blue">
 
     <label for="red">Red</label>
-    <input id="red" type="checkbox" name="color" value="red">
+    <input id="red" type="checkbox" name="color[]" value="red">
 
     <label for="yellow">Yellow</label>
-    <input id="yellow" type="checkbox" name="color" value="yellow">
+    <input id="yellow" type="checkbox" name="color[]" value="yellow">
 
     <p>What day is it?</p>
 
@@ -42,8 +42,23 @@
     <input id="tuesday" type="radio" name="day" value="2">
     <label for="tuesday">Tuesday</label>
 
-    <input id="wednesday" type="" name="day" value="3">
+    <input id="wednesday" type="radio" name="day" value="3">
     <label for="wednesday">Wednesday</label>
+
+    <br>
+    <br>
+    <label for="address">Address</label>
+    <br>
+    <textarea name="address" id="address" cols="10" rows="10"></textarea>
+
+    <br>
+
+    <label for="consoles">Consoles</label>
+    <select name="console" id="consoles">
+        <option value="ps4">PS4</option>
+        <option value="xbox1">XBOX ONE</option>
+        <option value="switch">Nintendo Switch</option>
+    </select>
 
 
     <br><br>
