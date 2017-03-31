@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Macondo');
+
 /* Using the element's name as my selector */
 
 body{
@@ -12,6 +14,12 @@ body{
 
 #second{
     background-color: #d67373;
+    color:white;
+    background-image: url(../img/codeup-square.png);
+
+
+    width: 500px;
+    height: 500px;
 }
 
 #third{
@@ -23,9 +31,26 @@ body{
 .boxes{
     width: 150px;
     height: 150px;
+    color:white;
+    text-align: right;
+    font-family: "Arial Black";
+    font-style: italic;
+    font-size: 12px;
+    margin: 50px;
+
+    margin-top: 50px;
 }
 
 .borders{
-    border: 2px solid black;
+    border-top: 10px dashed blue;
+}
+
+#name{
+    text-align: left;
+    text-indent: 10px;
+}
+
+.names{
+    list-style: none;
 }
 
