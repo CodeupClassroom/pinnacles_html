@@ -4,12 +4,12 @@
 
 Create an account at:
 
-* [https://typing.io/](Typing IO)
-* [https://www.shortcutfoo.com](Shortcut Foo)
+* [Typing IO](https://typing.io/)
+* [Shortcut Foo](https://www.shortcutfoo.com)
 
 ## Useful links
 
-* [https://en.support.wordpress.com/markdown-quick-reference/](Markdown)
+* [Markdown](https://en.support.wordpress.com/markdown-quick-reference/)
 
 ## Vocabulary
 
@@ -17,9 +17,6 @@ Create an account at:
 * `prompt`, the text before the cursor on a terminal
 * `CDN`. Content Delivery Network.
 
-Cache
-
-Quirks mode
 
 ## Terminal Commands
 
@@ -37,28 +34,30 @@ Quirks mode
 * ASCII. First standard that used a range between  0 adn 255
 * UNICODE supports a wider range
 
-# Git
+## Git
 
-`git init` initializes a git repository
-`git status` Outputs the current state of your repository
-`git add <file_name>` Start tracking this file with Git
-`git commit -m "message here"` Commit some changes
-`git remote add origin git@github.com:CodeupClassroom/pinnacles_html.git` This is how you add a remote
-
-
-VCS. Versioning Control System
+* **VCS**. Versioning Control System
 
 * Snapshot -> Commits
-* Your name, your email, the date, message, identifier (hash)
+    * Your name, your email, the date, message, identifier (hash)
 * Repository -> folder, your code + git information (history of your code)
 
-Github
+### Basic commands
+
+* `git init` initializes a git repository
+* `git status` Outputs the current state of your repository
+* `git add <file_name>` Start tracking this file with Git
+* `git commit -m "message here"` Commit some changes
+* `git remote add origin git@github.com:CodeupClassroom/pinnacles_html.git` This is how you add a remote
+
+
+## Github
 
 * Remote. A remote git repository
 
 ## HTML elements
 
-Classification
+### Classification
 
 * Block elements -> br p, div 
 * Inline elements -> em, strong, span
@@ -66,36 +65,36 @@ Classification
 
 * Elements can have attributes. Attributes describe properties for that element
 
-- Required
- - img -> src
- - meta -> charset
-- Optional -> id, class
+- **Required**
+    - img -> src
+    - meta -> charset
+- **Optional** -> id, class
 
-An HTML can be either
+An HTML file can have several states
 
-They're related to syntax
+These are related to syntax
 * Well-formed
 * Mal-formed
 
-They're related to the standard
+These are related to the standard
 * Valid 
 * Invalid
 
 The value of some attributes is optional, for instance disabled in input.
 The quotes are also optional unless the value has a space
 
-# Servers paths
+## Servers paths
 
 The root folder of a server, usually is not the same as the root folder of the machine
 For our projects the root of the server is directory where our HTML pages are. For instance `pinnacles_html`. This folder is called the **public directory** 
 
-## Paths
+### Paths
 
 * Absolute paths. It starts with a /
 * Relative paths
 
 
-# Brew and tree
+## Brew and tree
 
 To install [brew](https://brew.sh/) run:
 
@@ -111,11 +110,11 @@ brew install tree
 
 `tree` can be executed to colorize files and folders for easier distinction using the `tree -C` flag. For more options run `man tree`
 
-Protocols
+## Protocols
 
-HTTP - Hyper-Text Transfer Protocol
+**HTTP** - Hyper-Text Transfer Protocol
 
-HTTP Messages
+### HTTP Messages
 
 2 parts
 * Header
@@ -125,20 +124,77 @@ HTTP Messages
 * Request   -> Client-side -> Browser
 * Response  -> Server-side -> Web server
 
-HTTP verbs (methods)
+### HTTP verbs (methods)
 
 GET   -> Read - Download
 POST  -> Write - Sending data
 
-Query string
+### Query string
 
-key = value -> key-value pair
+`key = value` -> key-value pair
 
-examples:
-attributes in html elements
-GET parameters in query strings
+Some examples are:
 
-?search_query=javascript
+* attributes in html elements
+* GET parameters in query strings
+* POST parameters in the body of a request
+
+Example:
+
+`?search_query=javascript`
+
+
+## CSS
+
+
+3 different ways to style an HTML
+
+* **Inline styles**. You use the style HTML attribute directly in the element
+* **Embedded styles**. You need to create a style element in the head section of your document
+* **External stylesheets**. You need to use the link element to link the current document to the external stylesheet
+
+### CSS selectors
+
+* element. We use the tag name.
+* ID. This one is for unique elements on a page.
+* class. This one is for several elements with similar visual presentation.
+
+### Specificity
+
+Prioritize the rules based on the different types of selectors.
+
+1. ID
+1. class
+1. element
+
+# Pseudo-classes
+
+They represent state on an element. for instance the states of a link (anchor tag).
+
+* `:link`
+* `:hover`
+* `:visited`
+* `:active`
+
+## Properties
+
+* Text properties
+* Font properties
+    * Serif
+    * Sans serif
+    * Monospaced
+* Background properties
+* List properties
+
+## Box model
+
+* Everything is a box in page
+* That defines the position of the elements on a page
+* Space -> Size
+    * width, padding, border. -> Size
+    * total width = width + padding + border
+    * total height = height + padding + border
+* Margin
 
 
 
