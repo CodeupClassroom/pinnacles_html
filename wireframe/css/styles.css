@@ -1,3 +1,4 @@
+/* Reset */
 html, body {
     height: 100%;
     width: 100%;
@@ -15,3 +16,22 @@ body {
 nav > ul {
     list-style-type: none;
 }
+
+/* Layout */
+
+header > h1 {
+    float: left;
+}
+
+header > nav {
+    float: right;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.hero {
+    clear: both;
+}
+
