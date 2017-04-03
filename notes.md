@@ -195,30 +195,35 @@ They represent state on an element. for instance the states of a link (anchor ta
     * total width = width + padding + border
     * total height = height + padding + border
 * Margin
+* `box-sizing: content-box` normalizes the width of block level elements, so
+that all of them respect the width defined by the `width` property.
 
+## Responsive design
 
+* What's a reset CSS file
+    * UA stylesheet
+* Different types of layouts
+    * Fixed (pixels)
+    * Fluid (percentages)
+    * Responsive (change order of elements, hide/show elements)
+* Device Independent Pixels (Device Pixel Ratio) vs Hardware pixels
+    * Calculating CSS pixels
+* The viewport `<meta name="viewport" content="width=device-width, initial-scale=1">`
+* Specific resets for responsive designs
+    * Fluid Images
+```css
+img, embed, object, video {
+    max-width: 100%;
+}
+```
 
+* Touch targets
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```css
+nav a, button {
+    min-height: 48px;
+    min-width: 48px;
+}
+```
+* Media queries. They are external stylesheets or CSS rules that are applied
+conditionally according to the current viewport.
