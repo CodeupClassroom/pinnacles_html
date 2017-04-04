@@ -227,3 +227,42 @@ nav a, button {
 ```
 * Media queries. They are external stylesheets or CSS rules that are applied
 conditionally according to the current viewport.
+
+## Bootstrap
+
+2 ways to install bootstrap
+
+* Using the CDN (simple one)
+* Downloading and saving bootstrap
+    - css -> bootstrap.min.css
+    - fonts -> all of the fonts in the zip file
+    - js -> bootstrap.min.js
+    
+### Grid system
+
+* It's based on 12 columns
+* It has 4 different types of columns (4 prefixes)
+    * xs -> extra small (all)
+    * sm -> small (768px and bigger)
+    * md -> medium (992px and bigger)
+    * lg -> large (1200px and bigger)
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
