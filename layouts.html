@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layouts</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Grid system */
+
+        .column-1 { /* 1 out of 3*/
+            width: 33%;
+            float: left;
+        }
+
+        .column-2 { /* 2 columns out fo 3*/
+            width: 66%;
+            float: left;
+        }
+
+        .row {
+            clear: both; /* clear fix */
+            overflow: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <article class="row column-2">
+            <h1>Title</h1>
+            <section class="column-1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque aut consectetur, corporis eius est facilis illum, laborum maiores molestiae obcaecati provident quibusdam quidem repudiandae sint! Aliquid aspernatur dicta eligendi et ex excepturi facilis fugit harum, hic illo, in maxime necessitatibus neque nihil perspiciatis quis repudiandae rerum soluta suscipit tempora?
+            </section>
+            <section class="column-1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur dignissimos ducimus impedit incidunt labore laudantium maiores nisi omnis veritatis? Ad amet animi beatae cumque doloribus esse ex ipsam maxime minus molestias neque numquam obcaecati, pariatur placeat porro provident, quidem ratione rem repellendus rerum sint suscipit tempore veritatis voluptas voluptate!
+            </section>
+            <section class="column-1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda blanditiis dolore dolores enim et facere illo illum inventore labore maiores molestiae, obcaecati pariatur quae qui, rem, velit voluptas voluptatibus!
+            </section>
+        </article>
+        <aside class="column-1">
+            <h2>Sub-title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consectetur consequatur debitis deleniti fugiat natus nemo odio rem sed voluptate.</p>
+        </aside>
+    </main>
+</body>
+</html>
